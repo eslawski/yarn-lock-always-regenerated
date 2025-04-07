@@ -1,17 +1,14 @@
-# minimal-reproduction-template
+# Discussion #: 35229
 
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
-
-Then replace the current `h1` with the Renovate Issue/Discussion number.
 
 ## Current behavior
 
-Explain the current behavior here.
+This project specifies `^3.5.7` of `vue`. It opens a PR suggesting an update to `3.5.13`. Furthermore, this PR contains only changes to the `yarn.lock` and zero-install cache files.
 
 ## Expected behavior
 
-Explain the expected behavior here.
+I would expect no PR to be opened. This is because `3.5.13` is within range of `^3.5.7`.
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+[Put your link to the Renovate issue or Discussion here.](https://github.com/renovatebot/renovate/discussions/35229)
