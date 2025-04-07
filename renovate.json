@@ -4,7 +4,7 @@
   "packageRules": [
     {
       "matchPackageNames": ["vue", "webpack"],
-      "groupName": "Example PR that does NOT update yarn cache"
+      "groupName": "Example PR that suggests and update already in range"
     }
   ]
 }
