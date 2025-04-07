@@ -903,7 +903,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue@npm:3.5.7":
+"vue@npm:^3.5.7":
   version: 3.5.7
   resolution: "vue@npm:3.5.7"
   dependencies:
@@ -938,7 +938,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:5.96.0":
+"webpack@npm:^5.96.0":
   version: 5.96.0
   resolution: "webpack@npm:5.96.0"
   dependencies:
